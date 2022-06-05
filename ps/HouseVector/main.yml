@@ -2,4 +2,6 @@
 - hosts: localhost
   tasks:
     - import_role:
-        name: single_task
+        name: ps.HouseVector.single_task
+      vars:
+        name: value
